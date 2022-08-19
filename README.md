@@ -90,7 +90,8 @@ Note: Use <code>datafeed.performance_summary_long</code> and <code>datafeed.perf
 <p>
 <!-- Get monthly performance: -->
 ```python
-# Get monthly performance
+
+"""Get monthly performance"""
 datafeed.monthly_performance()
 <!-- Output: -->
 # Output:
