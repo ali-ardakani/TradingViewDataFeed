@@ -43,11 +43,12 @@
 <h3 id="performance-summary">Performance Summary</h2>
 <p>
 <!-- Get performance summary: -->
-<code># Get performance summary</code>
-<code>datafeed.performance_summary</code>
+
+```python
+# Get performance summary
+datafeed.performance_summary
 <!-- Output: -->
-<code># Output:</code>
-<code>    
+# Output:
     Net Profit                            25634.1
     Net Profit %                        25.634121
     Gross Profit                        192466.81
@@ -81,7 +82,7 @@
     Avg Bars in Winning Trades    0 days 07:21:23
     Avg Bars in Losing Trades     0 days 08:21:40
     dtype: object
-</code>
+```
 </br>
 Note: Use <code>datafeed.performance_summary_long</code> and <code>datafeed.performance_summary_short</code> to get the performance summary for long and short trades.
 </p>
