@@ -29,15 +29,16 @@
 <!-- Usage: -->
 <h2 id="usage">Usage</h2>
 <p>
-<!-- Read trades from a csv file: -->
-<code># Read trades from a csv file</code>
-<code>import pandas as pd</code>
-<code>trades = pd.read_csv("trades.csv")</code>
 
-<!-- Construct a DataFrameTV object from a trades DataFrame downloaded from site TradingView: -->
-<code># Construct a DataFrameTV object from a trades DataFrame downloaded from site TradingView</code>
-<code>from tradingview import DataFrameTV</code>
-<code>datafeed = DataFrameTV(trades)</code>
+```python
+# Read trades from a csv file
+import pandas as pd
+trades = pd.read_csv("trades.csv")
+
+# Construct a DataFrameTV object from a trades DataFrame downloaded from site TradingView
+from tradingview import DataFrameTV
+datafeed = DataFrameTV(trades)
+```
 </p>
 
 <h3 id="performance-summary">Performance Summary</h2>
@@ -46,8 +47,7 @@
 
 ```python
 # Get performance summary
-datafeed.performance_summary
-<!-- Output: -->
+>>> datafeed.performance_summary
 # Output:
     Net Profit                            25634.1
     Net Profit %                        25.634121
@@ -94,7 +94,7 @@ Note: Use <code>datafeed.performance_summary_long</code> and <code>datafeed.perf
 
 ```python
 # Get monthly performance
-datafeed.monthly_performance()
+>>> datafeed.monthly_performance()
 # Output:
 
                 Net Profit  Net Profit %  Gross Profit  Gross Profit %  ...  Largest Losing Trade %  Avg Bars in Trades  Avg Bars in Winning Trades  Avg Bars in Losing Trades
