@@ -89,16 +89,17 @@ Note: Use <code>datafeed.performance_summary_long</code> and <code>datafeed.perf
 <h3 id="monthly-performance">Monthly Performance</h2>
 <p>
 <!-- Get monthly performance: -->
-<code># Get monthly performance</code>
-<code>datafeed.monthly_performance()</code>
+```python
+# Get monthly performance
+datafeed.monthly_performance()
 <!-- Output: -->
-<code># Output:</code>
-<code>
+# Output:
+
                 Net Profit  Net Profit %  Gross Profit  Gross Profit %  ...  Largest Losing Trade %  Avg Bars in Trades  Avg Bars in Winning Trades  Avg Bars in Losing Trades
     2022-06-30     -116.72     -0.116720      90037.22       90.037294  ...                   -5.71     0 days 04:28:56             0 days 03:57:07            0 days 05:15:52
     2022-07-31    -1229.05     -1.230489      65434.20       65.510793  ...                   -5.50     0 days 09:43:28             0 days 09:20:32            0 days 10:13:45
     2022-08-31    26979.87     27.346035      36995.39       37.497483  ...                   -3.63     0 days 17:30:15             0 days 15:19:04            1 days 02:15:00
-</code>
+```
 <!-- Note: -->
 </br>
 Note: If you want the result to be shown along with shorts and longs in the monthly performance, set the with_separate_long_short parameter to True.
