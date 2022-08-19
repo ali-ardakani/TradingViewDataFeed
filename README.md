@@ -89,11 +89,11 @@ Note: Use <code>datafeed.performance_summary_long</code> and <code>datafeed.perf
 <h3 id="monthly-performance">Monthly Performance</h2>
 <p>
 <!-- Get monthly performance: -->
-```python
+##### Code
 
-"""Get monthly performance"""
+```python
+# Get monthly performance
 datafeed.monthly_performance()
-<!-- Output: -->
 # Output:
 
                 Net Profit  Net Profit %  Gross Profit  Gross Profit %  ...  Largest Losing Trade %  Avg Bars in Trades  Avg Bars in Winning Trades  Avg Bars in Losing Trades
