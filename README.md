@@ -89,7 +89,7 @@ Note: Use <code>datafeed.performance_summary_long</code> and <code>datafeed.perf
 <h3 id="monthly-performance">Monthly Performance</h2>
 <p>
 <!-- Get monthly performance: -->
-##### Code
+###
 
 ```python
 # Get monthly performance
